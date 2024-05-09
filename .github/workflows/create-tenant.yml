@@ -44,7 +44,7 @@ jobs:
 
       - name: Terraform Format
         id: format
-        run: terraform format
+        run: terraform fmt
 
       - name: Terraform Plan
         id: plan
